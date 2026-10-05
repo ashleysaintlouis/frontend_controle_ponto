@@ -114,7 +114,7 @@ type DashboardData = {
   notifications: NotificationItem[];
 };
 
-const API_URL = import.meta.env.VITE_API_URL ?? 'http://localhost:3333';
+const API_URL = import.meta.env.API_URL ?? 'http://localhost:3334';
 const TOKEN_KEY = 'controle-ponto-token';
 const resetToken = new URLSearchParams(window.location.search).get('token');
 const weekdayNames = ['Domingo', 'Segunda-feira', 'Terça-feira', 'Quarta-feira', 'Quinta-feira', 'Sexta-feira', 'Sábado'];
