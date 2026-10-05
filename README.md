@@ -12,13 +12,6 @@ A aplicação fica em:
 
 - http://localhost:5173
 
-## Variáveis de ambiente
-
-Crie um arquivo `.env` com:
-
-```env
-VITE_API_URL=http://localhost:3333
-```
 
 ## Build
 
